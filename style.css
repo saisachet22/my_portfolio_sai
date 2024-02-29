@@ -810,3 +810,60 @@ footer .menu {
   border-radius: 100%;
   background-color: white;
 }
+/* Responsive media query start */
+@media only screen and (max-width: 767px) {
+  .max-width {
+    padding: 0 30px; /* Adjust padding for smaller screens */
+  }
+
+  /* Adjust font sizes for smaller screens */
+  section .title {
+    font-size: 28px;
+  }
+  .home .home-content .text-2 {
+    font-size: 40px;
+  }
+  .home .home-content .text-3 {
+    font-size: 22px;
+  }
+  .home .home-content a {
+    font-size: 16px;
+  }
+
+  /* Navbar adjustments */
+  .menu-btn {
+    display: block; /* Show the menu button on smaller screens */
+  }
+  .navbar .menu {
+    padding-top: 60px; /* Adjust padding for menu items */
+  }
+  .navbar .menu li a {
+    font-size: 18px; /* Adjust font size for menu items */
+    margin: 15px 0; /* Adjust margin for menu items */
+  }
+
+  /* Adjust image sizes for smaller screens */
+  .about .about-content .left img {
+    height: 250px;
+    width: 250px;
+  }
+
+  /* Adjust card layout for smaller screens */
+  .services .serv-content .card {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  /* Contact form adjustments */
+  .contact .right form .field,
+  .contact .right form .fields .field {
+    width: 100%; /* Make form fields full width on smaller screens */
+    margin-bottom: 10px; /* Adjust margin for form fields */
+  }
+  .contact .right form .textarea {
+    height: 120px; /* Increase height of textarea for better usability */
+  }
+  .right form .button-area button {
+    margin-top: 20px; /* Adjust margin for submit button */
+  }
+}
